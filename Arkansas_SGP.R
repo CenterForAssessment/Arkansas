@@ -9,6 +9,11 @@
 require(SGP)
 
 
+### NULL out baseline matrices
+
+SGPstateData[["AR"]][["Baseline_splineMatrix"]][["Coefficient_Matrices"]] <- NULL
+
+
 ### Load data
 
 load('Data/Arkansas_Data_LONG.Rdata')
