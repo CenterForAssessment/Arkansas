@@ -71,9 +71,9 @@ Arkansas_SGP <- prepareSGP(Arkansas_Data_LONG, data_supplementary=list(INSTRUCTO
 Arkansas_SGP <- analyzeSGP(
 		sgp_object=Arkansas_SGP,
 		sgp.percentiles=TRUE,
-		sgp.projections=TRUE,
+		sgp.projections=FALSE,
 		sgp.projections.lagged=FALSE,
-		sgp.percentiles.baseline=FALSE,
+		sgp.percentiles.baseline=TRUE,
 		sgp.projections.baseline=FALSE,
 		sgp.projections.lagged.baseline=FALSE,
 		sgp.config=ARKANSAS.config)
