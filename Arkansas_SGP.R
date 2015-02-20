@@ -27,8 +27,8 @@ ARKANSAS.2013.config <- list(
                 sgp.content.areas=c('MATHEMATICS', 'MATHEMATICS', 'MATHEMATICS', 'MATHEMATICS', 'MATHEMATICS'),
                 sgp.panel.years=c('2009', '2010', '2011', '2012', '2013'),
                 sgp.grade.sequences=list(c('1', '2'), c('1', '2', '3'), c('1', '2', '3', '4'), c('1', '2', '3', '4', '5'), c('2', '3', '4', '5', '6'), c('3', '4', '5', '6', '7'), c('4', '5', '6', '7', '8'))),
-	READING.2013.config=list(
-                sgp.content.areas=c('READING', 'READING', 'READING', 'READING', 'READING'),
+	LITERACY.2013.config=list(
+                sgp.content.areas=c('LITERACY', 'LITERACY', 'LITERACY', 'LITERACY', 'LITERACY'),
                 sgp.panel.years=c('2009', '2010', '2011', '2012', '2013'),
                 sgp.grade.sequences=list(c('1', '2'), c('1', '2', '3'), c('1', '2', '3', '4'), c('1', '2', '3', '4', '5'), c('2', '3', '4', '5', '6'), c('3', '4', '5', '6', '7'), c('4', '5', '6', '7', '8'))),
 	EOC_MATHEMATICS_1.2013 =list(
@@ -45,8 +45,8 @@ ARKANSAS.2014.config <- list(
                 sgp.content.areas=c('MATHEMATICS', 'MATHEMATICS', 'MATHEMATICS', 'MATHEMATICS', 'MATHEMATICS', 'MATHEMATICS'),
                 sgp.panel.years=c('2009', '2010', '2011', '2012', '2013', '2014'),
                 sgp.grade.sequences=list(c('1', '2'), c('1', '2', '3'), c('1', '2', '3', '4'), c('1', '2', '3', '4', '5'), c('1', '2', '3', '4', '5', '6'), c('2', '3', '4', '5', '6', '7'), c('3', '4', '5', '6', '7', '8'))),
-	READING.2014.config=list(
-                sgp.content.areas=c('READING', 'READING', 'READING', 'READING', 'READING', 'READING'),
+	LITERACY.2014.config=list(
+                sgp.content.areas=c('LITERACY', 'LITERACY', 'LITERACY', 'LITERACY', 'LITERACY', 'LITERACY'),
                 sgp.panel.years=c('2009', '2010', '2011', '2012', '2013', '2014'),
                 sgp.grade.sequences=list(c('1', '2'), c('1', '2', '3'), c('1', '2', '3', '4'), c('1', '2', '3', '4', '5'), c('1', '2', '3', '4', '5', '6'), c('2', '3', '4', '5', '6', '7'), c('3', '4', '5', '6', '7', '8'))),
 	EOC_MATHEMATICS_1.2014 =list(
