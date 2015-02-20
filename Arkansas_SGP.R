@@ -72,10 +72,10 @@ Arkansas_SGP <- analyzeSGP(
 		sgp_object=Arkansas_SGP,
 		sgp.percentiles=TRUE,
 		sgp.projections=TRUE,
-		sgp.projections.lagged=TRUE,
-		sgp.percentiles.baseline=TRUE,
-		sgp.projections.baseline=TRUE,
-		sgp.projections.lagged.baseline=TRUE,
+		sgp.projections.lagged=FALSE,
+		sgp.percentiles.baseline=FALSE,
+		sgp.projections.baseline=FALSE,
+		sgp.projections.lagged.baseline=FALSE,
 		sgp.config=ARKANSAS.config)
 #		parallel.config=list(BACKEND='PARALLEL', WORKERS=list(PERCENTILES=20)))
 
